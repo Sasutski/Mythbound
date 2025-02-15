@@ -16,7 +16,7 @@ public class rotation_front : MonoBehaviour
 
         // Only rotate if there's movement input
         if (moveDirection != Vector2.zero)
-        {
+        { //test commit
             // Calculate the angle between Vector2.up and movement direction
             targetAngle = Vector2.SignedAngle(Vector2.up, moveDirection);
             
